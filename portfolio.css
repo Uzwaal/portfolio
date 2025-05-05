@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#bbb;
+    
+}
+
+.nav1{
+    display: flex;
+    gap: 30px;
+}
+
+i{
+    padding: 5px 0;
+}
+
+
+@media (max-width:600px) {
+    .nav1 h3{
+        display: none;
+    }
+    
+}
+
+
+
+
